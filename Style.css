@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+#nav-part1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav h3 {
+    font-size: 16px;
+    border: 1.5px solid black;
+    padding: 3px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+i {
+    font-size: 16px;
+    border: 1.5px solid black;
+    padding: 3px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+.nav h2 {
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.nav button {
+    border: 1.5px solid black;
+    border-radius: 50px;
+    font-weight: 600;
+    padding: 7px 9px;
+}
+
+#btn2 {
+    border: none;
+    color: white;
+    background-color: orangered;
+}
+
+#gg {
+    font-size: 180px;
+    text-transform: uppercase;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+img {
+    height: 480px;
+    width: 400px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+}
+
+#img1 {
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#img2 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+#img3 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+#img4 {
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+#btn3 {
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+    border: 1.5px solid black;
+    padding: 3px;
+    font-weight: 500;
+    border-radius: 50px;
+
+}
+
+#btn4 {
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    font-size: 17px;
+    border: 1.5px solid black;
+    padding: 3px;
+    font-weight: 500;
+    border-radius: 50px;
+}
